@@ -18,5 +18,13 @@ public class GitPushTestApplication {
 		String msg ;
 		return msg = "hello jenkins";
 	}
+	
+	//below is the 2nd push to git
+	
+	@GetMapping("/greeting")
+	public String greeting() {
+		String msg ;
+		return msg = "Good Morning Jenkins";
+	}
 
 }
